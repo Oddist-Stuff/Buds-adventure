@@ -4,7 +4,7 @@ var gbRunInterval = null;				//GameBoyCore Timer
 var settings = [						//Some settings.
 	window.location.href.indexOf("audio=true") > -1, //Turn on sound.
 	true,								//Boot with boot ROM first?
-	false,								//Give priority to GameBoy mode
+	true,								//Give priority to GameBoy mode
 	1,									//Volume level set.
 	true,								//Colorize GB mode?
 	false,								//Disallow typed arrays?
