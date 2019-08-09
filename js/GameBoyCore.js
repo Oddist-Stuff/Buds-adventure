@@ -251,7 +251,7 @@ function GameBoyCore(canvas, ROMImage) {
 	this.cachedOBJPaletteConversion = null;
 	this.updateGBBGPalette = this.updateGBRegularBGPalette;
 	this.updateGBOBJPalette = this.updateGBRegularOBJPalette;
-	this.colorizedGBPalettes = false;
+	this.colorizedGBPalettes = true;
 	this.BGLayerRender = null;			//Reference to the BG rendering function.
 	this.WindowLayerRender = null;		//Reference to the window rendering function.
 	this.SpriteLayerRender = null;		//Reference to the OAM rendering function.
