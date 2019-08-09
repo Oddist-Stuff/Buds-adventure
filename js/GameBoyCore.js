@@ -226,7 +226,7 @@ function GameBoyCore(canvas, ROMImage) {
 	this.windowX = 0;						//Current X offset of the window.
 	this.drewBlank = 0;						//To prevent the repeating of drawing a blank screen.
 	this.drewFrame = false;					//Throttle how many draws we can do to once per iteration.
-	this.midScanlineOffset = -1;			//mid-scanline rendering offset.
+	this.midScanlineOffset = 1 ;			//mid-scanline rendering offset.
 	this.pixelEnd = 0;						//track the x-coord limit for line rendering (mid-scanline usage).
 	this.currentX = 0;						//The x-coord we left off at for mid-scanline rendering.
 	//BG Tile Pointer Caches:
