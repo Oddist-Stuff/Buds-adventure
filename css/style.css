@@ -297,7 +297,7 @@ body {
 
   #game canvas {
     display: none;
-    max-width: 480px;
+    /*max-width: 480px;
   }
 
   #controller {
